@@ -1,0 +1,132 @@
+.category_items{
+    border: none!important;
+    background-color: var(--secound-bg-color);
+    height: fit-content;
+    align-content: center;
+    margin: 10px!important;
+}
+.category_item img{
+    width: 50px;
+    height: 50px;
+}
+
+.category_item.active p{
+    color:var(--content-color)!important;
+}
+.category_item p,
+.category_item img{
+    pointer-events: none;
+}
+.filter-header{
+    margin: 10px 20px;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px;
+    color: var(--content-color);
+}
+.display-cards{
+    border-radius: 20px;
+}
+.sort-by{
+    color: var(--content-color);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.display-choice{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    justify-content: space-between;
+    background-color: var(--secound-bg-color);
+}
+.display-btn{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+}
+.sort-by{
+    display: flex;
+    gap: 15px;
+}
+.sort-by p{
+    margin-bottom: 0!important;
+    padding: 11px;
+}
+.sort-by select{
+    border: none;
+    background-color: var(--color-f5f5f7);
+    color: rgba(0, 0, 0, 0.579);
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.display-by{
+    gap: 8px;
+    flex-wrap: nowrap!important;
+}
+.items-number{
+    padding: 6px 3px;
+    color: var(--content-color2);
+}
+#sort-selection{
+    color: var(--content-color);
+}
+.display-btn.active{
+    background-color: #232f3e;
+    color: white;
+}
+.display-btn i{
+    pointer-events: none;
+}
+.cards-row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin: 30px 0px;
+}
+.cards-row .card{
+    width: 29%!important;
+    border-radius: 20px;
+    height: 380px;
+}
+.cards-row .card img{
+    width: 80%;
+    height: fit-content;
+    margin: 5px auto 30px !important;
+}
+.cards-row .card .card-title{
+    height: fit-content;
+}
+@media (max-width:370px){
+    .display-by{
+      flex-direction: column;
+    }
+  }
+
+@media (max-width:860px){
+    .category_item{
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards-row .card{
+        width: 49%!important;
+    }
+    .cards-row .card img{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .cards-row .card{
+        width: 90%!important;
+    }
+}
+@media (min-width:760px) and (max-width:1080px){
+    .cards-row .card img{
+        width: 90%;
+    }
+}

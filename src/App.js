@@ -1,57 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import "bootstrap/dist/css/bootstrap.min.css";
+import OurStore from './pages/OurStore';
+import {Cartprovider} from "../src/components/Context";
+import CheckOut from './pages/CheckOut';
+import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <>
+    <Cartprovider>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home/>} />
+        <Route path='/OurStore' element={<OurStore/>} />
+        <Route path='/Contact' element={<Contact/>} />
+        <Route path='/CheckOut' element={<CheckOut/>} />
+        <Route path='/Wishlist' element={<Wishlist/>} />
+        
+      </Route><Route path='/Login' element={<Login/>} />
+    </Routes>
+    </BrowserRouter>
+    </Cartprovider>
+    </>
   );
 }
 

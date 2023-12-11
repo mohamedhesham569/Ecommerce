@@ -1,0 +1,71 @@
+[{
+    "id":"0",
+    "brand":"lenovo",
+    "price":"380.99",
+    "titel":"Lenovo 2022 Newest Ideapad 3 Laptop",
+    "desc":" 15.6 HD Touchscreen, 11th Gen Intel Core i3-1115G4 Processor, 8GB DDR4 RAM, 256GB",
+    "images":"images/imges2/61QGMX0Qy6L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"1",
+    "brand":"Microsoft",
+    "price":"1625.36",
+    "titel":"Microsoft Surface Laptop 5",
+    "desc":" Microsoft Surface Laptop 5 (2022), 13.5 Touch Screen, Thin & Lightweight, Long Battery Life, Fast Intel i7",
+    "images":"images/imges2/51HRWLrCiqL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"2",
+    "brand":"SGIN",
+    "price":"259.99",
+    "titel":"SGIN Laptop",
+    "desc":" SGIN Laptop 15.6 Inch 4GB DDR4 128GB SSD, Windows 11 Laptop with Celeron N4020, up to 2.8GHz, Mini HDMI, 2.4/5.0G WiFi",
+    "images":"images/imges2/71Qp4khq-1L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"3",
+    "brand":"Jumper",
+    "price":"379.99",
+    "titel":"Jumper 16 Inch Laptop",
+    "desc":" Jumper 16 Inch Laptop, 16GB RAM 512GB SSD, 11th Gen Intel Celeron N5095, FHD IPS Screen(1920*1200), Windows 11",
+    "images":"images/imges2/81QPmA0mJnL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"4",
+    "brand":"Apple",
+    "price":"17.99",
+    "titel":"Apple EarPods Headphones",
+    "desc":" Apple EarPods Headphones with Lightning Connector. Microphone with Built-in Remote to Control Music, Phone Calls",
+    "images":"images/imges2/41-aexp44tL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"5",
+    "brand":"Beats",
+    "price":"17.99",
+    "titel":"Beats Solo3 Wireless On-Ear Headphones",
+    "desc":" Beats Solo3 Wireless On-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 40 Hours of Listening Time",
+    "images":"images/imges2/51-CdmhSPLL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"6",
+    "brand":"JBL",
+    "price":"79.99",
+    "titel":"JBL Tune 710BT Wireless Over-Ear",
+    "desc":" JBL Tune 710BT Wireless Over-Ear - Bluetooth Headphones with Microphone, 50H Battery, Hands-Free Calls, Portable (Black)",
+    "images":"images/imges2/619zjivnmYS._AC_UY218_-removebg-preview.png"
+},{
+    "id":"7",
+    "brand":"Beats",
+    "price":"348",
+    "titel":"Sony WH-1000XM4 Wireless Premium",
+    "desc":"Sony WH-1000XM4 Wireless Premium Noise Canceling Overhead Headphones with Mic for Phone-Call and Alexa Voice Control, Black",
+    "images":"images/imges2/51SKmu2G9FL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"8",
+    "brand":"Beats",
+    "price":"348",
+    "titel":"Beats Studio Buds",
+    "desc":"Beats Studio Buds – True Wireless Noise Cancelling Earbuds – Compatible with Apple & Android, Built-in Microphone",
+    "images":"images/imges2/51utxdpV8cS._AC_UY218_-removebg-preview.png"
+},{
+    "id":"9",
+    "brand":"Beats",
+    "price":"169.99",
+    "titel":"Beats Studio3 Wireless",
+    "desc":"Beats Studio3 Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth",
+    "images":"images/imges2/51-_O3-wFxL._AC_UY218_-removebg-preview.png"
+}]

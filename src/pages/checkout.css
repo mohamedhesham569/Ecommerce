@@ -1,0 +1,152 @@
+.check-product-img{
+    width: 25%;
+    margin: 10px;
+    height: 70px;
+}
+#ismForm label{
+    flex-wrap: nowrap!important;
+    gap: 5px;
+}
+#ismForm label input{
+    width: 61%;
+}
+.trash{
+    border: none;
+    align-self: center;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+.trash i {
+    color: white;
+    padding: 10px;
+}
+.check-out-body{
+    justify-content: space-between;
+}
+.check-out-info{
+    background-color: var(--color-232f3e);
+    color: white;
+    border-radius: 20px;
+    padding: 20px 6px!important;
+    height: fit-content !important;
+}
+.check-labels ,
+.check-out-header ,
+.check-product-title ,
+.Cart-price{
+    color: var(--content-color);
+}
+.check-products-card{
+    background-color: var(--secound-bg-color);
+    margin: 10px 0px;
+    justify-content: space-between;
+    position: relative;
+}
+.check-out-lable{
+    justify-content: space-between;
+    margin: 10px;
+    align-items: baseline;
+}
+.check-out-lable input{
+    border-radius: 5px;
+}
+.total-price-discount{
+    border-top: 1px solid var(--color-febd69);
+    margin: 10px;
+}
+.check-card-remove{
+    border: navajowhite;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: inherit;
+    margin: 5px;
+}
+.check-out-info button{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 10%;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid var(--color-febd69);
+}
+.check-out-info button input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-febd69);
+    padding: 5px;
+    text-transform:capitalize;
+}
+.alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform(-50%,-50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 2px black;
+    width: 25%;
+    z-index: 1000000000;
+}
+.formSubmit{
+    background-color: var(--color-febd69);
+}
+.formSubmit i{
+    font-size: 21px;
+    display: flex;
+    align-self: center;
+    margin-right: 4px;
+
+}
+.justify{
+    display: flex;
+    justify-content: center;
+}
+.check-product-img{
+    width: 4em;
+    margin: 10px 5px;
+    height: fit-content;
+}
+@media (max-width:500px){
+    .itemscheck{
+        width: 100%;
+        padding: 0;
+    }
+    .cprice{
+        padding: 0;
+        width: fit-content;
+    }
+    .quantity-button{
+        font-size: 2.5em;
+    }
+    .quantity-value{
+        margin: 0 0 11px;
+    }
+    .Cart-price{
+        font-size: 0.8em;
+        margin-bottom: 1.3em!important;
+        margin-left: 0.2em;
+    }
+    .trash{
+        display: none;
+    }
+    .check-product-img{
+        width: 6em;
+        margin: 10px 5px;
+        height: fit-content;
+    }
+    .check-out-info{
+        width: 100%;
+        margin: 2em 0;
+    }
+}
+@media (min-width:770px){
+    .check-out-info button{
+        flex-wrap: nowrap;
+    }
+}

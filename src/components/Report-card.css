@@ -1,0 +1,27 @@
+.image{
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+}
+.report-image{
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0!important;
+}
+.reports-titel{
+    font-size: 0.8rem!important;
+    font-weight: bolder!important;
+    margin: 10px 0px;
+    color: var(--content-color)!important;
+}
+.reports-text,
+.date{
+    color: var(--content-color2);
+}
+.reports-text{
+    font-size: 0.7em;
+    color: var(--content-color2);
+}
+.fs7{
+    font-size: 0.7em !important;
+}

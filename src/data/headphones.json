@@ -1,0 +1,31 @@
+[
+    {
+        "id":"10",
+    "price":"100.99",
+    "brand":"Bajaj",
+    "titel":"Apple AirPods Max 2020",
+    "images":"images/imges2/06_00_652x-removebg-preview.png"
+    },
+    {
+        "id":"11",
+    "price":"150.99",
+    "brand":"Sony",
+    "titel":"Bang & Olufsen Beoplay",
+    "images":"images/imges2/06_1f4f68e8-e872-4bbc-b9f1-9b86af764a1d_652x-removebg-preview.png"
+    },
+    {
+        "id":"12",
+    "price":"120.99",
+    "brand":"Havells",
+    "titel":"Kids headphones bulk",
+    "images":"images/imges2/18_652x-removebg-preview.png"
+    },
+    {
+        "id":"13",
+        "brand":"Beats",
+        "price":"169.99",
+        "titel":"Beats Studio3 Wireless",
+        "desc":"Beats Studio3 Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth",
+        "images":"images/imges2/24-01_652x-removebg-preview.png"
+    }
+]

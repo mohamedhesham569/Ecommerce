@@ -1,0 +1,221 @@
+.insidebar{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 50%!important;
+  height: 100vh;
+    background-color: black;
+    transition: all 0.7s ease;
+    border: 1px solid #0000001f;
+    box-shadow: 0 0 10px #000000a1;
+    color: #000;
+    z-index: 1000000;
+}
+.insidebar div{
+  font-size: 1.4em;
+  margin: 1.6em 1em;
+}
+.insidebar div a{
+  justify-content: flex-start;
+}
+.insidebar button{
+  border: none;
+  right: 0;
+  background-color: inherit;
+  position: absolute;
+  margin: 10px;
+}
+.header-top-strip,.header-upper{
+    border-bottom: 1px solid var(--coloe--3b4149);
+    background-color: var(--color--131921);
+    color: white;
+    height: fit-content;
+    }
+.form-control:focus{
+    box-shadow: none;
+    border: inherit;
+  }
+  .header-upper .input-group-text{
+    background-color: var(--color-febd69);
+    cursor: pointer;
+  }
+  .header-upper-links{
+    display: flex;
+  }
+  .menu-bottom{
+    gap: 30px;
+  }
+  .header-bottom{
+    background-color: var(--color-232f3e);
+  }
+  .cartall{
+    position: relative;
+  }
+  .numItems{
+    padding: 0px 6px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 44%;
+    font-size: 0.7em;
+    background-color: rgb(197, 50, 50);
+    color: black;
+    font-weight: 700;
+  }
+  .header-upper-links img{
+    width: 35px;
+    height: 35px;
+  }
+  .dropdown button{
+    font-size: 0.7em;
+    padding: 5px;
+  }
+  .dropdown button::before{
+    content: '';
+    background-image: url(../../public/images/images/menu.svg);
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-size: cover;
+  }
+  .dropdown:hover .dropdown-menu{
+    display: inline-block;
+  }
+  .dropdown-toggle::after{
+    margin-top: 0.8em;
+    margin-left: 0.55em!important;
+  }
+  .dropdown-item{
+    color: white;
+  }
+  .dropdown-item:hover{
+    color: black!important;
+  }
+  #toggleButton{
+    width: 34px;
+    height: 19px;
+    background-color: var(--secound-bg-color);
+    border-radius: 10px;
+    padding: 2px;
+    overflow: hidden;
+    transition: all 0.6s;
+    margin-top: 5px;
+  }
+  #toggleButton .inner{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--night-icon);
+    transition: all 0.6s;
+    cursor: pointer;
+  }
+  #toggleButton .inner::before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    border-radius: 50%;
+    background-color: var(--secound-bg-color);
+    transition: all 0.6s;
+  }
+  .icon-active{
+    transform: translateX(15px)!important;
+  }
+  .icon-active::before{
+    left: -7px!important;
+  }
+  .smile{
+    position: absolute;
+    left: 11%;
+    top: 83%;
+    width: 28%;
+  }
+  .bar{
+    display: flex;
+    justify-content: center;
+  }
+  .h-text p{
+    font-size: 0.9em;
+    margin-bottom: 0px!important;
+  }
+  /**/
+  /* media quare */
+  @media (max-width:376px){
+    .mzone{
+      font-size: 0.9em!important;
+    }
+  }
+  
+@media (max-width:680px) {
+  body{
+    font-size: 16px!important;
+  }
+  .search{
+    width: 62%!important;
+  }
+  .header-upper-links{
+    display: none!important;
+  }
+  .numItems{
+    left: 13%;
+  }
+}
+
+@media(min-width:681px)and (max-width:950px){.header-upper-links{
+    width: 52%!important;
+  }
+  .carousel-caption{
+    bottom: 2rem!important;
+  }
+  .mzone-width{
+    width: 12%!important;
+  }
+  body{
+    font-size: 14px!important;
+  }
+  .bar{
+    display: none;
+  }
+  .search{
+    width: 35%!important;
+  }
+}
+@media (max-width:760px){
+  .carousel-caption{
+    bottom: 4rem!important;
+  }
+}
+@media (min-width:570px) and (max-width:759px){
+  body{
+    font-size: 20px!important;
+  }
+  .carousel-caption{
+    bottom: 6rem!important;
+  }
+}
+@media (min-width:951px){
+  body{
+    font-size: 17px!important;
+  }
+  .bar{
+    display: none;
+  }
+  .search{
+    width: 39%!important;
+  }
+  .carousel-caption{
+    bottom: 7rem!important;
+  }
+}
+@media (min-width:1080px){
+  body{
+    font-size: 20px!important;
+  }
+}

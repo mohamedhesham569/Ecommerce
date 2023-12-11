@@ -1,0 +1,71 @@
+[{
+    "id":"14",
+    "price":"1199",
+    "brand":"Apple",
+    "titel":"Apple 2022 MacBook",
+    "desc":"Apple 2022 MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 8GB RAM, 256GB SSD Storage",
+    "images":"images/imges2/71f5Eu5lJSL._AC_UL400_-removebg-preview.png"
+},{
+    "id":"15",
+    "price":"1625.36",
+    "brand":"lenovo",
+    "titel":"Microsoft Surface Laptop 5",
+    "desc":" Microsoft Surface Laptop 5 (2022), 13.5 Touch Screen, Thin & Lightweight, Long Battery Life, Fast Intel i7",
+    "images":"images/imges2/51HRWLrCiqL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"16",
+    "price":"259.99",
+    "brand":"SGIN",
+    "titel":"SGIN Laptop",
+    "desc":" SGIN Laptop 15.6 Inch 4GB DDR4 128GB SSD, Windows 11 Laptop with Celeron N4020, up to 2.8GHz, Mini HDMI, 2.4/5.0G WiFi",
+    "images":"images/imges2/71Qp4khq-1L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"17",
+    "price":"379.99",
+    "brand":"Jumper",
+    "titel":"Jumper 16 Inch Laptop",
+    "desc":" Jumper 16 Inch Laptop, 16GB RAM 512GB SSD, 11th Gen Intel Celeron N5095, FHD IPS Screen(1920*1200), Windows 11",
+    "images":"images/imges2/81QPmA0mJnL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"18",
+    "price":"695.99",
+    "brand":"Apple",
+    "titel":"Mid 2018 Apple MacBook Pro",
+    "desc":"Mid 2018 Apple MacBook Pro Touch Bar with 2.7GHz Intel Core i7 (13.3 inch, 16GB RAM, 512GB SSD) Space Gray (Renewed)",
+    "images":"images/imges2/61VXtQJk-4L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"19",
+    "price":"1689.95",
+    "brand":"Apple",
+    "titel":"Late 2021 Apple MacBookPro",
+    "desc":"Late 2021 Apple MacBookPro with Apple M1 Pro chip (16 inch, 16GB RAM, 1TB SSD) Silver (Renewed)",
+    "images":"images/imges2/71tvjGtWT-L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"20",
+    "price":"380.99",
+    "brand":"lenovo",
+    "titel":"Lenovo 2022 Newest Ideapad 3 Laptop",
+    "desc":" 15.6 HD Touchscreen, 11th Gen Intel Core i3-1115G4 Processor, 8GB DDR4 RAM, 256GB",
+    "images":"images/imges2/61QGMX0Qy6L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"21",
+    "price":"2799.99",
+    "brand":"Razer",
+    "titel":"Razer Blade 15 Gaming Laptop",
+    "desc":"Razer Blade 15 Gaming Laptop: NVIDIA GeForce RTX 3070 Ti - 12th Gen Intel 14-Core i7 CPU - 15.6” FHD 360Hz - 16GB DDR5 RAM",
+    "images":"images/imges2/61gA6Girg6L._AC_UY218_-removebg-preview.png"
+},{
+    "id":"22",
+    "price":"2211.28",
+    "brand":"Razer",
+    "titel":"Razer Blade 14 Gaming Laptop",
+    "desc":"Razer Blade 14 Gaming Laptop: AMD Ryzen 9 5900HX 8 Core, NVIDIA GeForce RTX 3080, 14 QHD 165Hz, 16GB RAM, 1TB SSD",
+    "images":"images/imges2/611VQf95rxL._AC_UY218_-removebg-preview.png"
+},{
+    "id":"23",
+    "price":"2999.99",
+    "brand":"Razer",
+    "titel":"Razer Blade 16 Gaming -Laptop",
+    "desc":"Razer Blade 16 Gaming -Laptop: NVIDIA GeForce RTX 4070 13th Gen Intel 24-Core i9 HX CPU - 16 QHD+ 240Hz 16GB -RAM - 1TB SSD",
+    "images":"images/imges2/81cZU2826PL._AC_UY218_-removebg-preview.png"
+}]
