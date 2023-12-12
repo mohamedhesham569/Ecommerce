@@ -90,10 +90,10 @@
 .cards-row .card{
     width: 29%!important;
     border-radius: 20px;
-    height: 380px;
+    height: fit-content;
 }
 .cards-row .card img{
-    width: 80%;
+    width: 70%;
     height: fit-content;
     margin: 5px auto 30px !important;
 }
@@ -113,11 +113,15 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .card-image{
+        height: fit-content;
+    }
     .cards-row .card{
         width: 49%!important;
     }
     .cards-row .card img{
-        width: 100%;
+        width: 90%;
+        height: fit-content;
     }
 }
 @media (max-width:500px){
@@ -128,5 +132,6 @@
 @media (min-width:760px) and (max-width:1080px){
     .cards-row .card img{
         width: 90%;
+        height: fit-content;
     }
 }
